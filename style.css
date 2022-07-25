@@ -113,4 +113,8 @@ body {
   .accordian .content-container.active .question::after {
     font-size: 1.5rem;
   }
+
+  .accordian .content-container:hover .question::after {
+    transform: none;
+  }
 }
