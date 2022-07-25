@@ -52,10 +52,10 @@ body {
 
   transition: transform 0.5s; /* transition arrow */
 }
-
+/*
 .accordian .content-container:hover .question::after {
   transform: translateX(5px);
-}
+} */
 
 .accordian .content-container.active .question::after {
   content: '\276F';
@@ -112,9 +112,5 @@ body {
   .accordian .content-container .question:after,
   .accordian .content-container.active .question::after {
     font-size: 1.5rem;
-  }
-
-  .accordian .content-container:hover .question::after {
-    transform: none;
   }
 }
